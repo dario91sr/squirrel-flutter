@@ -3,7 +3,7 @@
 library installer_windows;
 
 import 'dart:io';
-import 'dart:mirrors';
+import 'dart:nativewrappers/_internal/vm/lib/mirrors_patch.dart';
 
 import 'package:yaml/yaml.dart';
 import 'package:path/path.dart' as path;
